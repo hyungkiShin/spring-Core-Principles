@@ -1,5 +1,6 @@
-package com.spring.springcore;
+package com.spring.springcore.app;
 
+import com.spring.springcore.AppConfig;
 import com.spring.springcore.member.Grade;
 import com.spring.springcore.member.Member;
 import com.spring.springcore.member.MemberService;
