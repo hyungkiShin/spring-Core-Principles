@@ -17,7 +17,7 @@ public class OrderApp {
         Member member = new Member(memberId, "memberA", Grade.VIP);
         memberService.join(member);
 
-        final Order itemA = orderService.createOrder(memberId, "itemA", 10000);
+        final Order itemA = orderService.createOrder(memberId, "itemA", 20000);
         System.out.println("order = " + itemA);
     }
 }
