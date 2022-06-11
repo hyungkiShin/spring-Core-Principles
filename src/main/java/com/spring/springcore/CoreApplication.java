@@ -5,7 +5,7 @@ import com.spring.springcore.member.Member;
 import com.spring.springcore.member.MemberService;
 import com.spring.springcore.member.MemberServiceImpl;
 
-public class SpringCoreApplication {
+public class CoreApplication {
 
     public static void main(String[] args) {
         MemberService memberService = new MemberServiceImpl();
