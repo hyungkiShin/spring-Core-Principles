@@ -37,7 +37,7 @@ public class ApplicationContextInfoTest {
 
             // 내가 애플리케이션에서 등록한 빈 을 확인하고 싶을때.
             if (beanDefinition.getRole() == BeanDefinition.ROLE_APPLICATION) {
-                final Object bean = ac.getBean(beanDefinitionName);
+                final Object bean = ac.getBean(beanDefinitionName); 
                 System.out.println("bean = " + bean + ", " + "   beanDefinition = " + beanDefinition);
             }
         }
